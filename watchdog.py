@@ -23,4 +23,4 @@ def watchdog(modem: modems.Modem, ttl: int = 120, internal_addr: str = None, ext
                             f'Rebooting the modem.')
             modem.reboot()
 
-        time.sleep(10)
+        time.sleep(120)

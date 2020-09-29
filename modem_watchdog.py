@@ -5,7 +5,6 @@ import argparse
 import modems
 import watchdog
 
-INTERVAL = 10
 # TTL should *always* be set high enough for the modem to come online before rebooting. This provides an opportunity for
 # a remote sysadmin to fix the system between reboots
 TTL = 120
